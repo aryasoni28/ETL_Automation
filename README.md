@@ -34,7 +34,7 @@ Maven 3.8+
 
 Installation
 Clone the repository:
-git clone https://github.com/yourusername/etl-system.git
+git clone https://github.com/aryasoni28/ETL_Automation.git
 
 Configure database:
 Update src/main/resources/application.properties:
