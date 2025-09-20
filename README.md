@@ -8,10 +8,15 @@ MySQL
 
 🚀 Key Features
 ✔ Automated CSV Processing - Ingests and parses CSV files with dynamic header detection
+
 ✔ Database Storage - Stores raw CSV data in MySQL with metadata tracking (source file, upload timestamp)
+
 ✔ Statistical Analysis - Calculates mean, median, skewness, and kurtosis for numeric columns (Legacy)
+
 ✔ Data Visualization - Generates interactive histograms and box plots using Chart.js
+
 ✔ Extensible Architecture - Built with SOLID principles for easy feature additions
+
 
 🛠️ Technology Stack
 Backend: Java 17, Spring Boot 2.7
