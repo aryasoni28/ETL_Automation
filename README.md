@@ -6,19 +6,20 @@ Java
 Spring Boot
 MySQL
 
-🚀 Key Features
-✔ Automated CSV Processing - Ingests and parses CSV files with dynamic header detection
+Key Features
 
-✔ Database Storage - Stores raw CSV data in MySQL with metadata tracking (source file, upload timestamp)
+Automated CSV Processing - Ingests and parses CSV files with dynamic header detection
 
-✔ Statistical Analysis - Calculates mean, median, skewness, and kurtosis for numeric columns (Legacy)
+Database Storage - Stores raw CSV data in MySQL with metadata tracking (source file, upload timestamp)
 
-✔ Data Visualization - Generates interactive histograms and box plots using Chart.js
+Statistical Analysis - Calculates mean, median, skewness, and kurtosis for numeric columns (Legacy)
 
-✔ Extensible Architecture - Built with SOLID principles for easy feature additions
+Data Visualization - Generates interactive histograms and box plots using Chart.js
+
+Extensible Architecture - Built with SOLID principles for easy feature additions
 
 
-🛠️ Technology Stack
+Technology Stack
 Backend: Java 17, Spring Boot 2.7
 
 Database: MySQL 8.0 (Compatible with PostgreSQL/H2)
@@ -29,7 +30,7 @@ Build Tool: Maven
 
 Design Patterns: Repository, Strategy, Factory Method, MVC
 
-⚙️ Setup Instructions
+Setup Instructions
 Prerequisites
 Java 17+
 
@@ -54,7 +55,7 @@ mvn spring-boot:run
 Access the UI at:
 http://localhost:8080
 
-📂 Project Structure
+Project Structure
 markdown
 src/
 ├── main/
@@ -69,7 +70,7 @@ src/
 │       ├── static/       # CSS/JS files
 │       ├── templates/    # Thymeleaf HTML
 │       └── application.properties
-🔍 Design Highlights
+Design Highlights
 Architecture
 MVC Pattern: Separation of concerns between controllers, services, and views
 
@@ -86,7 +87,7 @@ Pattern	Implementation Example	Benefit
 Repository	ProcessedDataRepository	Abstracts database operations
 Strategy	DataAnalyzer implementations	Swappable analysis algorithms
 Factory	DataAnalyzerFactory	Decouples object creation
-📊 Sample Workflow
+Sample Workflow
 User uploads CSV via web interface
 
 System parses file and validates structure
