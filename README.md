@@ -63,16 +63,27 @@ src/
 ├── main/
 
 │   ├── java/com/etl/
+
 │   │   ├── config/       # Spring configuration
+
 │   │   ├── controller/   # MVC Controllers (ETLController)
+
 │   │   ├── entity/       # JPA entities (ProcessedData)
+
 │   │   ├── repository/   # Database repositories
+
 │   │   ├── service/      # Business logic layer
+
 │   │   └── util/         # Utilities (CSVHelper)
+
 │   └── resources/
+
 │       ├── static/       # CSS/JS files
+
 │       ├── templates/    # Thymeleaf HTML
+
 │       └── application.properties
+
 Design Highlights
 Architecture
 MVC Pattern: Separation of concerns between controllers, services, and views
